@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url><loc>https://www.dac7check.eu/en/</loc>
+  <url><loc>https://www.dac7check.eu/en/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -25,12 +26,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/bg/</loc>
+  <url><loc>https://www.dac7check.eu/bg/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -50,12 +52,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/cs/</loc>
+  <url><loc>https://www.dac7check.eu/cs/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -75,12 +78,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/da/</loc>
+  <url><loc>https://www.dac7check.eu/da/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -100,12 +104,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/de/</loc>
+  <url><loc>https://www.dac7check.eu/de/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -125,12 +130,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/el/</loc>
+  <url><loc>https://www.dac7check.eu/at/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -150,12 +156,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/es/</loc>
+  <url><loc>https://www.dac7check.eu/el/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -175,12 +182,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/et/</loc>
+  <url><loc>https://www.dac7check.eu/es/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -200,12 +208,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/fi/</loc>
+  <url><loc>https://www.dac7check.eu/et/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -225,12 +234,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/fr/</loc>
+  <url><loc>https://www.dac7check.eu/fi/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -250,12 +260,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/hr/</loc>
+  <url><loc>https://www.dac7check.eu/fr/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -275,12 +286,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/hu/</loc>
+  <url><loc>https://www.dac7check.eu/hr/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -300,12 +312,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/it/</loc>
+  <url><loc>https://www.dac7check.eu/hu/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -325,12 +338,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/lt/</loc>
+  <url><loc>https://www.dac7check.eu/it/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -350,12 +364,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/lv/</loc>
+  <url><loc>https://www.dac7check.eu/lt/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -375,12 +390,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/nl/</loc>
+  <url><loc>https://www.dac7check.eu/lv/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -400,12 +416,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/pl/</loc>
+  <url><loc>https://www.dac7check.eu/nl/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -425,12 +442,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/pt/</loc>
+  <url><loc>https://www.dac7check.eu/pl/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -450,12 +468,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/ro/</loc>
+  <url><loc>https://www.dac7check.eu/pt/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -475,12 +494,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/sk/</loc>
+  <url><loc>https://www.dac7check.eu/ro/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -500,12 +520,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/sl/</loc>
+  <url><loc>https://www.dac7check.eu/sk/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -525,12 +546,13 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/sv/</loc>
+  <url><loc>https://www.dac7check.eu/sl/</loc><lastmod>2026-11-26</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
     <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
     <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
     <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
     <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
     <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
@@ -549,5 +571,91 @@
     <xhtml:link rel="alternate" hreflang="sl" href="https://www.dac7check.eu/sl/"/>
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/sv/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/"/>
+    <xhtml:link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/"/>
+    <xhtml:link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/at/"/>
+    <xhtml:link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/"/>
+    <xhtml:link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/"/>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://www.dac7check.eu/fi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/"/>
+    <xhtml:link rel="alternate" hreflang="hr" href="https://www.dac7check.eu/hr/"/>
+    <xhtml:link rel="alternate" hreflang="hu" href="https://www.dac7check.eu/hu/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/"/>
+    <xhtml:link rel="alternate" hreflang="lt" href="https://www.dac7check.eu/lt/"/>
+    <xhtml:link rel="alternate" hreflang="lv" href="https://www.dac7check.eu/lv/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.dac7check.eu/pt/"/>
+    <xhtml:link rel="alternate" hreflang="ro" href="https://www.dac7check.eu/ro/"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://www.dac7check.eu/sk/"/>
+    <xhtml:link rel="alternate" hreflang="sl" href="https://www.dac7check.eu/sl/"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/en/guides/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/en/guides/vinted-tax-id-request/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
   </url>
 </urlset>

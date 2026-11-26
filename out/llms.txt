@@ -1,0 +1,40 @@
+# DAC7 Check
+
+> Free calculator by SortwellStudios (Vienna) that shows EU online sellers whether a platform such as Vinted, eBay, Etsy, Kleinanzeigen or willhaben will report their sales to the tax office under the EU directive DAC7 (Council Directive (EU) 2021/514).
+
+Key facts: platforms report a seller who reaches 30 sales or receives more than EUR 2,000 on that platform in one calendar year; each platform counts separately; reports are sent by 31 January for the previous year; a report is not a tax bill. The European Commission proposed in 2026 to raise the limit to EUR 3,000 and drop the 30-sales rule from 2028 at the earliest; not yet adopted.
+
+## Checker (22 languages)
+- [English](https://www.dac7check.eu/en/)
+- [Български](https://www.dac7check.eu/bg/)
+- [Čeština](https://www.dac7check.eu/cs/)
+- [Dansk](https://www.dac7check.eu/da/)
+- [Deutsch (Deutschland)](https://www.dac7check.eu/de/)
+- [Deutsch (Österreich)](https://www.dac7check.eu/at/)
+- [Ελληνικά](https://www.dac7check.eu/el/)
+- [Español](https://www.dac7check.eu/es/)
+- [Eesti](https://www.dac7check.eu/et/)
+- [Suomi](https://www.dac7check.eu/fi/)
+- [Français](https://www.dac7check.eu/fr/)
+- [Hrvatski](https://www.dac7check.eu/hr/)
+- [Magyar](https://www.dac7check.eu/hu/)
+- [Italiano](https://www.dac7check.eu/it/)
+- [Lietuvių](https://www.dac7check.eu/lt/)
+- [Latviešu](https://www.dac7check.eu/lv/)
+- [Nederlands](https://www.dac7check.eu/nl/)
+- [Polski](https://www.dac7check.eu/pl/)
+- [Português](https://www.dac7check.eu/pt/)
+- [Română](https://www.dac7check.eu/ro/)
+- [Slovenčina](https://www.dac7check.eu/sk/)
+- [Slovenščina](https://www.dac7check.eu/sl/)
+- [Svenska](https://www.dac7check.eu/sv/)
+
+## Guides
+- [Vinted asks for your tax ID: do you have to give it?](https://www.dac7check.eu/en/guides/vinted-tax-id-request/): Why Vinted, eBay and other platforms ask for your tax ID, which data goes to the tax office, and what happens if you don't provide it.
+- [A letter from the tax office after a DAC7 report: what now?](https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/): You received a letter from the tax office after selling on Vinted, eBay or other platforms? Here is how to respond calmly and correctly.
+- [DAC7 on Vinted, eBay and Etsy: what gets reported?](https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/): Which sales Vinted, eBay, Etsy and local marketplaces report to the tax office, how they are counted, and why listings alone don't count.
+- [Private seller or business? Where the line is for resellers](https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/): When does selling on Vinted, eBay or Etsy count as a business? The main criteria tax offices look at, explained simply.
+- [Vinted fragt nach deiner Steuer-ID: Musst du sie angeben?](https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/): Warum Vinted, eBay und Co. nach deiner Steuer-ID fragen, welche Daten ans Finanzamt gehen und was passiert, wenn du sie nicht angibst.
+- [Post vom Finanzamt nach der DAC7-Meldung: Was jetzt?](https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/): Du hast nach Verkäufen auf Vinted, eBay oder willhaben einen Brief vom Finanzamt bekommen? So reagierst du richtig, in Deutschland und Österreich.
+- [DAC7 bei Vinted, eBay, Kleinanzeigen und willhaben: Was wird gemeldet?](https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/): Welche Verkäufe Vinted, eBay, Kleinanzeigen und willhaben ans Finanzamt melden, wie gezählt wird und warum Inserate allein nicht zählen.
+- [Privat oder gewerblich verkaufen: Wo liegt die Grenze?](https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/): Ab wann gilt Verkaufen auf Vinted, eBay oder willhaben als Gewerbe? Die wichtigsten Kriterien für Deutschland und Österreich, verständlich erklärt.
