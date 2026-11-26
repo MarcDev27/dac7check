@@ -598,64 +598,389 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/de/ratgeber/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
-  </url>
   <url><loc>https://www.dac7check.eu/en/guides/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/es/guias/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/fr/guides/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/it/guide/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/nl/gidsen/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/pl/poradniki/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/"/>
   </url>
   <url><loc>https://www.dac7check.eu/en/guides/vinted-tax-id-request/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/es/guias/vinted-nif/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/it/guide/vinted-codice-fiscale/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vinted-nif/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vinted-numero-fiscal/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/vinted-codice-fiscale/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/vinted-fiscaal-nummer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/vinted-numer-podatkowy/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/vinted-steuer-id-angeben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/vinted-tax-id-request/"/>
   </url>
   <url><loc>https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/carta-de-hacienda-tras-comunicacion-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/courrier-des-impots-apres-declaration-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/lettera-agenzia-entrate-dopo-segnalazione-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/brief-van-de-belastingdienst-na-dac7-melding/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/pismo-z-urzedu-skarbowego-po-zgloszeniu-dac7/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/post-vom-finanzamt-nach-dac7-meldung/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/letter-from-tax-office-after-dac7-report/"/>
   </url>
   <url><loc>https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
   </url>
-  <url><loc>https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/dac7-vinted-wallapop-ebay-que-se-comunica/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/dac7-vinted-leboncoin-ebay-ce-qui-est-declare/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/dac7-vinted-subito-ebay-cosa-viene-segnalato/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/dac7-vinted-marktplaats-ebay-wat-wordt-gemeld/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/dac7-vinted-allegro-olx-co-jest-zglaszane/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/dac7-vinted-ebay-kleinanzeigen-willhaben/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/dac7-vinted-ebay-etsy-what-gets-reported/"/>
   </url>
   <url><loc>https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/</loc><lastmod>2026-11-26</lastmod>
-    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
-    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+  </url>
+  <url><loc>https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/</loc><lastmod>2026-11-26</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/guias/vendedor-particular-o-actividad/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/guides/vendeur-particulier-ou-professionnel/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/guide/venditore-privato-o-attivita/"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/gidsen/particulier-of-ondernemer/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/poradniki/sprzedaz-prywatna-czy-dzialalnosc/"/>
+    <xhtml:link rel="alternate" hreflang="de-AT" href="https://www.dac7check.eu/de/ratgeber/privat-oder-gewerblich-verkaufen/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/en/guides/private-seller-or-business-reseller/"/>
   </url>
 </urlset>

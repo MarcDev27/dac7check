@@ -4,6 +4,10 @@ from i18n import L
 from i18n2 import L2
 from i18n3 import X, EURLEX, EXTRA_SOURCES, austria, germany_overrides
 from articles import ARTICLES, GUIDES, UPDATED
+from articles_more import MORE, MORE_GUIDES
+GUIDES.update(MORE_GUIDES)
+for _a in ARTICLES:
+    _a.update(MORE.get(_a["id"], {}))
 import shutil
 L.update(L2)
 L["at"] = austria(L["de"])
@@ -12,13 +16,14 @@ germany_overrides(L["de"])
 BASE = "https://www.dac7check.eu"           # change to the real domain before going live
 LISTING = "https://www.etsy.com/listing/4616435248/eu-reseller-spreadsheet-202627-vinted"
 ORDER = ["en", "bg", "cs", "da", "de", "at", "el", "es", "et", "fi", "fr", "hr", "hu", "it", "lt", "lv", "nl", "pl", "pt", "ro", "sk", "sl", "sv"]
+ART_LANGS = [c for c in ORDER if c in GUIDES]
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "out")
 CSS = open(sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "base.css"), encoding="utf-8").read()
 
 EXTRA_CSS = """
 .topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
-.lang { position: relative; background: none; border: 0; padding: 0; border-radius: 0; }
+.lang { position: relative; background: none; border: 0; padding: 0; border-radius: 0; margin-left: auto; }
 .lang summary { list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--input-border); background: var(--surface); color: var(--fg); }
 .lang summary::-webkit-details-marker { display: none; }
 .lang[open] summary { border-color: var(--accent); }
@@ -322,24 +327,32 @@ def page(lang_attr, head_html, body_html, extra_css=""):
 def topbar(home_href, lang_links_html, label):
     menu = f'<details class="lang"><summary>{label}</summary><ul>{lang_links_html}</ul></details>' if lang_links_html else ""
     return (f'<header class="topbar"><a class="brand" href="{home_href}" style="text-decoration:none">'
-            '<span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>Sortwell Studios · DAC7 Check</a>'
+            '<span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>DAC7 Check</a>'
             f'{menu}</header>')
 
 def footer(code, prefix):
     t = L[code]
-    return (f'<footer><p>{GUIDES["de" if code in ("de","at") else "en"]["disclaimer"]}</p>'
+    return (f'<footer><p>{GUIDES[code if code in GUIDES else "en"]["disclaimer"]}</p>'
             f'<nav><a href="{prefix}impressum.html">{t["imprint"]}</a><a href="{prefix}datenschutz.html">{t["privacy"]}</a></nav></footer>')
 
 MENU_JS = """<script>(function(){var m=document.querySelector('.lang');if(m)m.addEventListener('keydown',function(e){if(e.key==='Escape'&&m.open){m.open=false;m.querySelector('summary').focus();}});})();</script>"""
 
+def alt_links(urls):
+    """urls: {lang: url} -> hreflang link tags incl. de-AT and x-default"""
+    out = "".join(f'<link rel="alternate" hreflang="{l}" href="{u}">\n' for l, u in urls.items())
+    if "de" in urls:
+        out += f'<link rel="alternate" hreflang="de-AT" href="{urls["de"]}">\n'
+    return out + f'<link rel="alternate" hreflang="x-default" href="{urls["en"]}">\n'
+
+def short_name(l):
+    return L[l]["name"].split(" (")[0]
+
 def article_page(a, lang):
-    g, d, other = GUIDES[lang], a[lang], ("en" if lang == "de" else "de")
-    od = a[other]
-    me, them = art_url(lang, d["slug"]), art_url(other, od["slug"])
-    home = "../../../de/" if lang == "de" else "../../../en/"
-    alts = (f'<link rel="alternate" hreflang="{lang}" href="{me}">\n'
-            + (f'<link rel="alternate" hreflang="de-AT" href="{me}">\n' if lang == "de" else f'<link rel="alternate" hreflang="de-AT" href="{them}">\n')
-            + f'<link rel="alternate" hreflang="{other}" href="{them}">\n<link rel="alternate" hreflang="x-default" href="{art_url("en", a["en"]["slug"])}">\n')
+    g, d = GUIDES[lang], a[lang]
+    urls = {l: art_url(l, a[l]["slug"]) for l in ART_LANGS}
+    me = urls[lang]
+    home = f"../../../{lang}/"
+    alts = alt_links(urls)
     ld = {"@context": "https://schema.org", "@graph": [
         {"@type": "Article", "headline": d["title"], "description": d["desc"], "inLanguage": lang, "url": me,
          "datePublished": UPDATED, "dateModified": UPDATED, "author": ORG, "publisher": ORG, "image": BASE + "/og-image.png",
@@ -351,12 +364,11 @@ def article_page(a, lang):
     head_html = (f'<title>{d["title"]} | DAC7 Check</title>\n<meta name="description" content="{html.escape(d["desc"])}">\n'
                  f'<link rel="canonical" href="{me}">\n{alts}' + social(d["title"], d["desc"], me, L[lang]["locale"], "article")
                  + f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n')
-    other_name = "English" if lang == "de" else "Deutsch"
-    links = f'<li><a href="../../../{other}/{GUIDES[other]["dir"]}/{od["slug"]}/" lang="{other}" hreflang="{other}">{other_name}</a></li>'
+    links = "".join(f'<li><a href="../../../{l}/{GUIDES[l]["dir"]}/{a[l]["slug"]}/" lang="{l}" hreflang="{l}"' + (' aria-current="page"' if l == lang else '') + f'>{short_name(l)}</a></li>' for l in ART_LANGS)
     srcs = "".join(f'<li><a href="{u}">{n}</a></li>' for n, u in d["sources"])
     body_html = f"""<a class="skip" href="#article-title">{SKIP[lang]}</a>
 <div class="wrap">
-  {topbar(home, links, L[lang]["lang_label"] + ": " + L[lang]["name"].split(" (")[0])}
+  {topbar(home, links, L[lang]["lang_label"] + ": " + short_name(lang))}
   <main id="main" class="article">
     <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="{home}">DAC7 Check</a></li><li><a href="../">{g["title"]}</a></li><li aria-current="page">{d["title"]}</li></ol></nav>
     <h1 id="article-title" tabindex="-1">{d["title"]}</h1>
@@ -378,21 +390,19 @@ def article_page(a, lang):
     return page(lang, head_html, body_html)
 
 def guides_index(lang):
-    g, other = GUIDES[lang], ("en" if lang == "de" else "de")
-    me = guides_url(lang)
-    alts = (f'<link rel="alternate" hreflang="{lang}" href="{me}">\n'
-            + (f'<link rel="alternate" hreflang="de-AT" href="{me}">\n' if lang == "de" else f'<link rel="alternate" hreflang="de-AT" href="{guides_url(other)}">\n')
-            + f'<link rel="alternate" hreflang="{other}" href="{guides_url(other)}">\n<link rel="alternate" hreflang="x-default" href="{guides_url("en")}">\n')
-    title = f'{g["title"]}: DAC7, Vinted &amp; {"Finanzamt" if lang == "de" else "tax"} | DAC7 Check'
+    g = GUIDES[lang]
+    urls = {l: guides_url(l) for l in ART_LANGS}
+    me = urls[lang]
+    alts = alt_links(urls)
+    title = f'{g["title"]}: DAC7 &amp; Vinted | DAC7 Check'
     head_html = (f'<title>{title}</title>\n<meta name="description" content="{html.escape(g["intro"])}">\n<link rel="canonical" href="{me}">\n{alts}'
                  + social(html.unescape(title), g["intro"], me, L[lang]["locale"]))
     items = "".join(f'<li><a href="{a[lang]["slug"]}/"><strong>{a[lang]["title"]}</strong></a><br><span class="meta">{a[lang]["desc"]}</span></li>' for a in ARTICLES)
-    other_name = "English" if lang == "de" else "Deutsch"
-    links = f'<li><a href="../../{other}/{GUIDES[other]["dir"]}/" lang="{other}" hreflang="{other}">{other_name}</a></li>'
+    links = "".join(f'<li><a href="../../{l}/{GUIDES[l]["dir"]}/" lang="{l}" hreflang="{l}"' + (' aria-current="page"' if l == lang else '') + f'>{short_name(l)}</a></li>' for l in ART_LANGS)
     home = f"../../{lang}/"
     body_html = f"""<a class="skip" href="#article-title">{SKIP[lang]}</a>
 <div class="wrap">
-  {topbar(home, links, L[lang]["lang_label"] + ": " + L[lang]["name"].split(" (")[0])}
+  {topbar(home, links, L[lang]["lang_label"] + ": " + short_name(lang))}
   <main id="main" class="article">
     <h1 id="article-title" tabindex="-1">{g["title"]}</h1>
     <p>{g["intro"]}</p>
@@ -412,7 +422,7 @@ def write(path, content):
 def build():
     for c in ORDER:
         write(os.path.join(OUT, c, "index.html"), full(c))
-    for lang in ("de", "en"):
+    for lang in ART_LANGS:
         write(os.path.join(OUT, lang, GUIDES[lang]["dir"], "index.html"), guides_index(lang))
         for a in ARTICLES:
             write(os.path.join(OUT, lang, GUIDES[lang]["dir"], a[lang]["slug"], "index.html"), article_page(a, lang))
@@ -432,13 +442,16 @@ def build():
     main_pairs = [(hl(c), url(c)) for c in ORDER] + [("x-default", BASE + "/")]
     for c in ORDER:
         entry(url(c), main_pairs)
-    gp = [("de", guides_url("de")), ("de-AT", guides_url("de")), ("en", guides_url("en")), ("x-default", guides_url("en"))]
-    for lang in ("de", "en"):
-        entry(guides_url(lang), gp)
+    def pairs(urls):
+        pr = list(urls.items()) + ([("de-AT", urls["de"])] if "de" in urls else [])
+        return pr + [("x-default", urls["en"])]
+    gu = {l: guides_url(l) for l in ART_LANGS}
+    for lang in ART_LANGS:
+        entry(gu[lang], pairs(gu))
     for a in ARTICLES:
-        ap = [("de", art_url("de", a["de"]["slug"])), ("de-AT", art_url("de", a["de"]["slug"])), ("en", art_url("en", a["en"]["slug"])), ("x-default", art_url("en", a["en"]["slug"]))]
-        for lang in ("de", "en"):
-            entry(art_url(lang, a[lang]["slug"]), ap)
+        au = {l: art_url(l, a[l]["slug"]) for l in ART_LANGS}
+        for lang in ART_LANGS:
+            entry(au[lang], pairs(au))
     sm.append("</urlset>")
     write(os.path.join(OUT, "sitemap.xml"), "\n".join(sm) + "\n")
     write(os.path.join(OUT, "impressum.html"), IMPRESSUM)
@@ -449,12 +462,12 @@ def build():
             "> Free calculator by SortwellStudios (Vienna) that shows EU online sellers whether a platform such as Vinted, eBay, Etsy, Kleinanzeigen or willhaben will report their sales to the tax office under the EU directive DAC7 (Council Directive (EU) 2021/514).",
             "", "Key facts: platforms report a seller who reaches 30 sales or receives more than EUR 2,000 on that platform in one calendar year; each platform counts separately; reports are sent by 31 January for the previous year; a report is not a tax bill. The European Commission proposed in 2026 to raise the limit to EUR 3,000 and drop the 30-sales rule from 2028 at the earliest; not yet adopted.",
             "", "## Checker (22 languages)"] + [f"- [{L[c]['name']}]({url(c)})" for c in ORDER] + ["", "## Guides"]
-    for lang in ("en", "de"):
+    for lang in ART_LANGS:
         llms += [f"- [{a[lang]['title']}]({art_url(lang, a[lang]['slug'])}): {a[lang]['desc']}" for a in ARTICLES]
     write(os.path.join(OUT, "llms.txt"), "\n".join(llms) + "\n")
     frag = (head("de", fonts=True) + '<meta name="claude:viewport-fit-sides" content="cover">\n'
             f"<style>{CSS}{EXTRA_CSS}</style>\n" + body("de", ""))
     open(os.path.join(HERE, "preview.html"), "w", encoding="utf-8").write(frag)
-    print("built", ORDER, "+", len(ARTICLES) * 2, "articles")
+    print("built", len(ORDER), "checker pages +", len(ARTICLES) * len(ART_LANGS), "articles in", ART_LANGS)
 
 build()
