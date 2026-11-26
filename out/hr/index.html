@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DAC7 provjera: hoće li Vinted prijaviti tvoju prodaju?</title>
+<meta name="description" content="Besplatni DAC7 kalkulator: provjeri za svaku platformu hoće li Vinted, Njuškalo ili eBay prijaviti tvoju prodaju Poreznoj upravi – od 30 prodaja ili više od 2000 € godišnje.">
+<link rel="canonical" href="https://www.dac7check.eu/hr/">
+<link rel="alternate" hreflang="en" href="https://www.dac7check.eu/en/">
+<link rel="alternate" hreflang="bg" href="https://www.dac7check.eu/bg/">
+<link rel="alternate" hreflang="cs" href="https://www.dac7check.eu/cs/">
+<link rel="alternate" hreflang="da" href="https://www.dac7check.eu/da/">
+<link rel="alternate" hreflang="de" href="https://www.dac7check.eu/de/">
+<link rel="alternate" hreflang="el" href="https://www.dac7check.eu/el/">
+<link rel="alternate" hreflang="es" href="https://www.dac7check.eu/es/">
+<link rel="alternate" hreflang="et" href="https://www.dac7check.eu/et/">
+<link rel="alternate" hreflang="fi" href="https://www.dac7check.eu/fi/">
+<link rel="alternate" hreflang="fr" href="https://www.dac7check.eu/fr/">
+<link rel="alternate" hreflang="hr" href="https://www.dac7check.eu/hr/">
+<link rel="alternate" hreflang="hu" href="https://www.dac7check.eu/hu/">
+<link rel="alternate" hreflang="it" href="https://www.dac7check.eu/it/">
+<link rel="alternate" hreflang="lt" href="https://www.dac7check.eu/lt/">
+<link rel="alternate" hreflang="lv" href="https://www.dac7check.eu/lv/">
+<link rel="alternate" hreflang="nl" href="https://www.dac7check.eu/nl/">
+<link rel="alternate" hreflang="pl" href="https://www.dac7check.eu/pl/">
+<link rel="alternate" hreflang="pt" href="https://www.dac7check.eu/pt/">
+<link rel="alternate" hreflang="ro" href="https://www.dac7check.eu/ro/">
+<link rel="alternate" hreflang="sk" href="https://www.dac7check.eu/sk/">
+<link rel="alternate" hreflang="sl" href="https://www.dac7check.eu/sl/">
+<link rel="alternate" hreflang="sv" href="https://www.dac7check.eu/sv/">
+<link rel="alternate" hreflang="x-default" href="https://www.dac7check.eu/">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "hr", "mainEntity": [{"@type": "Question", "name": "Kada Vinted prijavljuje moju prodaju Poreznoj upravi?", "acceptedAnswer": {"@type": "Answer", "text": "Čim na Vintedu u kalendarskoj godini dosegneš 30 prodaja ili prijeđeš 2000 €. Isto vrijedi za Njuškalo, eBay, Etsy i druge platforme obuhvaćene DAC7, svaku zasebno."}}, {"@type": "Question", "name": "Moram li platiti porez ako budem prijavljen?", "acceptedAnswer": {"@type": "Answer", "text": "Ne automatski. Povremena prodaja vlastitih rabljenih stvari obično je privatna prodaja. Kupnja stvari radi preprodaje uz zaradu može se smatrati gospodarskom djelatnošću, i tada mogu nastati porezi i druge obveze. Detalji ovise o tvojoj zemlji."}}, {"@type": "Question", "name": "Zbrajaju li se prodaje na različitim platformama?", "acceptedAnswer": {"@type": "Answer", "text": "Za prijavu ne. Svaka platforma gleda samo prodaje kod sebe. Za porez se ipak računa tvoj ukupni prihod, s bilo koje platforme."}}, {"@type": "Question", "name": "Mijenjaju li se granice uskoro?", "acceptedAnswer": {"@type": "Answer", "text": "Europska komisija je 2026. predložila da se granica za prodaju robe podigne na 3000 € i da se ukine pravilo od 30 prodaja. To bi vrijedilo najranije od 2028. i još nije usvojeno. Prekidačem u provjeri možeš vidjeti što bi se za tebe promijenilo."}}]}</script>
+<style>
+/* Layout: one narrow reading column; the checker is the hero, explainer and FAQ follow. */
+:root {
+  --bg: #F3F6F5;
+  --surface: #FFFFFF;
+  --fg: #14262D;
+  --muted: #4E6067;
+  --line: #D3DEE1;
+  --accent: #1F4E5F;
+  --accent-fg: #FFFFFF;
+  --mint: #7FC8A9;
+  --ok-bg: #D9F2E3; --ok-fg: #145A2F;
+  --warn-bg: #FFE8C2; --warn-fg: #7A4100;
+  --bad-bg: #F8D7DA; --bad-fg: #8E1F1F;
+  --track: #E6ECEE;
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0F1A1E; --surface: #17262C; --fg: #E6EEF0; --muted: #A3B4BA; --line: #2B3F46;
+    --accent: #7FC8A9; --accent-fg: #0F1A1E; --mint: #7FC8A9;
+    --ok-bg: #173A28; --ok-fg: #9FE0BC; --warn-bg: #43300F; --warn-fg: #FFD08A; --bad-bg: #4A1E22; --bad-fg: #FFB3B8;
+    --track: #24363C; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0F1A1E; --surface: #17262C; --fg: #E6EEF0; --muted: #A3B4BA; --line: #2B3F46;
+  --accent: #7FC8A9; --accent-fg: #0F1A1E; --mint: #7FC8A9;
+  --ok-bg: #173A28; --ok-fg: #9FE0BC; --warn-bg: #43300F; --warn-fg: #FFD08A; --bad-bg: #4A1E22; --bad-fg: #FFB3B8;
+  --track: #24363C; color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 16px; line-height: 1.6;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 760px; margin: 0 auto; padding-block: 40px 56px; display: flex; flex-direction: column; gap: 48px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; line-height: 1.15; margin: 0; letter-spacing: -0.01em; }
+h1 { font-size: clamp(30px, 6vw, 46px); }
+h2 { font-size: clamp(22px, 4vw, 28px); }
+h3 { font-size: 18px; }
+p { margin: 0; }
+a { color: var(--accent); text-underline-offset: 3px; }
+:focus-visible { outline: 3px solid var(--mint); outline-offset: 2px; }
+
+.brand { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 15px; color: var(--muted); }
+.brand-mark { width: 30px; height: 30px; border-radius: 8px; background: #1F4E5F; display: flex; flex-direction: column; justify-content: center; gap: 2.5px; padding: 0 7px; }
+.brand-mark span { display: block; height: 3.5px; border-radius: 2px; background: #fff; }
+.brand-mark span:nth-child(1) { width: 35%; } .brand-mark span:nth-child(2) { width: 58%; }
+.brand-mark span:nth-child(3) { width: 80%; } .brand-mark span:nth-child(4) { width: 100%; background: #7FC8A9; }
+
+.intro { display: flex; flex-direction: column; gap: 14px; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
+.lead { font-size: 18px; color: var(--muted); max-width: 62ch; }
+.rule-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: 14px; font-weight: 600; padding: 6px 12px; border-radius: 999px; background: var(--surface); border: 1px solid var(--line); }
+
+.checker { background: var(--surface); border: 1px solid var(--line); border-radius: 20px; padding: 24px; display: flex; flex-direction: column; gap: 20px; }
+.checker-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 8px 16px; }
+.sample-note { font-size: 14px; color: var(--muted); }
+.rows { display: flex; flex-direction: column; gap: 14px; }
+.row { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 10px 14px; align-items: end; padding-bottom: 14px; border-bottom: 1px solid var(--line); }
+.row:last-child { border-bottom: 0; padding-bottom: 0; }
+.field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.field label { font-size: 13px; font-weight: 600; color: var(--muted); }
+.field input { width: 100%; min-width: 0; font: inherit; font-variant-numeric: tabular-nums; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+.field input:focus { border-color: var(--accent); }
+.plat-name { font-weight: 700; font-size: 17px; padding-bottom: 10px; }
+.result { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 8px; }
+.result-top { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; }
+.pill { font-size: 14px; font-weight: 700; padding: 4px 12px; border-radius: 999px; }
+.pill.ok { background: var(--ok-bg); color: var(--ok-fg); }
+.pill.warn { background: var(--warn-bg); color: var(--warn-fg); }
+.pill.bad { background: var(--bad-bg); color: var(--bad-fg); }
+.pill.none { background: var(--track); color: var(--muted); }
+.result-text { font-size: 14px; color: var(--muted); }
+.bars { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.bar { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.track { height: 8px; border-radius: 4px; background: var(--track); overflow: hidden; }
+.fill { height: 100%; border-radius: 4px; width: 0; transition: width 0.3s ease; }
+.fill.ok { background: #2E8B57; } .fill.warn { background: #E08A1E; } .fill.bad { background: #C2402E; }
+
+.controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; }
+.toggle { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: var(--muted); max-width: 46ch; }
+.toggle input { margin-top: 4px; width: 18px; height: 18px; accent-color: var(--accent); }
+.btn-ghost { font: inherit; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+.btn-ghost:hover { border-color: var(--accent); }
+.summary { font-weight: 600; font-size: 16px; padding: 14px 16px; border-radius: 12px; background: var(--bg); }
+
+.cta { background: #1F4E5F; color: #FFFFFF; border-radius: 20px; padding: 28px; display: flex; flex-direction: column; gap: 12px; }
+.cta h2 { color: #FFFFFF; }
+.cta p { color: #D6E6EA; max-width: 60ch; }
+.cta ul { margin: 0; padding-left: 20px; color: #E3EEF1; }
+.cta a.btn { align-self: flex-start; margin-top: 6px; background: #7FC8A9; color: #0F1A1E; font-weight: 700; text-decoration: none; padding: 12px 20px; border-radius: 12px; }
+.cta a.btn:hover { background: #9AD6BB; }
+
+.explain { display: flex; flex-direction: column; gap: 16px; }
+.explain p { max-width: 65ch; }
+.example { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+.example div { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; font-size: 15px; }
+.example strong { display: block; font-family: var(--font-display); font-size: 17px; margin-bottom: 4px; }
+
+.faq { display: flex; flex-direction: column; gap: 10px; }
+details { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 14px 18px; }
+summary { font-weight: 600; cursor: pointer; }
+details p { margin-top: 10px; color: var(--muted); max-width: 65ch; }
+
+footer { display: flex; flex-direction: column; gap: 10px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 20px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 16px; }
+
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 560px) {
+  .row { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .plat-name { grid-column: 1 / -1; padding-bottom: 0; }
+  .example, .bars { grid-template-columns: minmax(0, 1fr); }
+  .checker, .cta { padding: 20px; }
+}
+@media (prefers-reduced-motion: reduce) { .fill { transition: none; } }
+
+.topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.lang { position: relative; background: none; border: 0; padding: 0; border-radius: 0; }
+.lang summary { list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+.lang summary::-webkit-details-marker { display: none; }
+.lang[open] summary { border-color: var(--accent); }
+.lang ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 5; margin: 0; padding: 6px; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; min-width: 190px; max-height: 60vh; overflow-y: auto; box-shadow: 0 12px 30px rgba(20, 38, 45, 0.15); }
+.lang li a { display: block; padding: 8px 12px; border-radius: 8px; text-decoration: none; color: var(--fg); font-size: 15px; }
+.lang li a:hover, .lang li a[aria-current="page"] { background: var(--bg); }
+.lang li a[aria-current="page"] { font-weight: 700; }
+.counts { display: flex; flex-wrap: wrap; gap: 8px; }
+.summary:empty { display: none; }
+
+body { margin: 0; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="topbar">
+    <span class="brand"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>Sortwell Studios</span>
+    <details class="lang"><summary>Jezik: Hrvatski</summary><ul><li><a href="../en/index.html" lang="en" hreflang="en">English</a></li><li><a href="../bg/index.html" lang="bg" hreflang="bg">Български</a></li><li><a href="../cs/index.html" lang="cs" hreflang="cs">Čeština</a></li><li><a href="../da/index.html" lang="da" hreflang="da">Dansk</a></li><li><a href="../de/index.html" lang="de" hreflang="de">Deutsch</a></li><li><a href="../el/index.html" lang="el" hreflang="el">Ελληνικά</a></li><li><a href="../es/index.html" lang="es" hreflang="es">Español</a></li><li><a href="../et/index.html" lang="et" hreflang="et">Eesti</a></li><li><a href="../fi/index.html" lang="fi" hreflang="fi">Suomi</a></li><li><a href="../fr/index.html" lang="fr" hreflang="fr">Français</a></li><li><a href="../hr/index.html" lang="hr" hreflang="hr" aria-current="page">Hrvatski</a></li><li><a href="../hu/index.html" lang="hu" hreflang="hu">Magyar</a></li><li><a href="../it/index.html" lang="it" hreflang="it">Italiano</a></li><li><a href="../lt/index.html" lang="lt" hreflang="lt">Lietuvių</a></li><li><a href="../lv/index.html" lang="lv" hreflang="lv">Latviešu</a></li><li><a href="../nl/index.html" lang="nl" hreflang="nl">Nederlands</a></li><li><a href="../pl/index.html" lang="pl" hreflang="pl">Polski</a></li><li><a href="../pt/index.html" lang="pt" hreflang="pt">Português</a></li><li><a href="../ro/index.html" lang="ro" hreflang="ro">Română</a></li><li><a href="../sk/index.html" lang="sk" hreflang="sk">Slovenčina</a></li><li><a href="../sl/index.html" lang="sl" hreflang="sl">Slovenščina</a></li><li><a href="../sv/index.html" lang="sv" hreflang="sv">Svenska</a></li></ul></details>
+  </header>
+  <section class="intro" aria-labelledby="title">
+    <div class="eyebrow">Besplatna DAC7 provjera</div>
+    <h1 id="title">Hoće li Vinted i druge platforme prijaviti tvoju prodaju Poreznoj upravi?</h1>
+    <p class="lead">Upiši koliko si ove godine prodao na svakoj platformi i za koji iznos. Odmah vidiš gdje slijedi prijava i koliko ti je prostora ostalo.</p>
+    <div class="rule-chips"><span class="chip">Od 30 prodaja</span><span class="chip">ili više od 2000 €</span><span class="chip">po platformi i kalendarskoj godini</span></div>
+  </section>
+  <section class="checker" aria-labelledby="check-title">
+    <div class="checker-head"><h2 id="check-title">Tvoja prodaja ove godine</h2><span class="sample-note" id="sample-note">Ispunjeno primjerima</span></div>
+    <form id="form" class="rows" novalidate></form>
+    <div class="summary" id="summary" aria-live="polite"></div>
+    <div class="controls">
+      <label class="toggle" for="proposal"><input type="checkbox" id="proposal"><span>Isprobaj predloženo novo pravilo: samo više od 3000 €, bez granice od 30 prodaja (prijedlog EU-a, najranije od 2028., još nije usvojen)</span></label>
+      <button type="button" class="btn-ghost" id="clear">Isprazni sva polja</button>
+    </div>
+  </section>
+  <section class="cta" aria-labelledby="cta-title">
+    <h2 id="cta-title">Imaj pregled cijele godine</h2>
+    <p>Reseller Profit &amp; DAC7 Tracker automatski broji svaku prodaju i usput pokazuje tvoju stvarnu zaradu.</p>
+    <ul><li>Zarada, naknade i ROI po artiklu</li><li>DAC7 status po platformi s upozorenjem prije granice</li><li>Godišnji pregled s mjesečnim grafikonom i vrijednošću zaliha</li><li>Za Excel i Google Sheets (tablica na engleskom)</li></ul>
+    <a class="btn" href="https://www.etsy.com/listing/4616435248/eu-reseller-spreadsheet-202627-vinted">Pogledaj tracker na Etsyju</a>
+  </section>
+  <section class="explain" aria-labelledby="explain-title">
+    <h2 id="explain-title">DAC7 jednostavnim riječima</h2>
+    <p>DAC7 je pravilo EU-a koje obvezuje online platforme da podatke o svojim prodavačima dostave poreznim tijelima. Vrijedi u svim zemljama EU-a od 2023. To je obveza izvješćivanja, a ne novi porez.</p>
+    <p>Prijavljen si ako na jednoj platformi u jednoj kalendarskoj godini ostvariš <strong>30 ili više prodaja</strong> <strong>ili više od 2000 €</strong>. Dovoljna je jedna od dvije granice. Platforma tada traži tvoj OIB i dostavlja podatke do 31. siječnja za prethodnu godinu.</p>
+    <div class="example"><div><strong>Bez prijave</strong>25 prodaja na Vintedu i 25 na Njuškalu. Svaka platforma broji zasebno i obje ostaju ispod 30.</div><div><strong>Prijava</strong>31 prodaja samo na Vintedu, čak i ako si ukupno zaradio samo 400 €.</div></div>
+  </section>
+  <section class="faq" aria-labelledby="faq-title"><h2 id="faq-title">Česta pitanja</h2><details><summary>Kada Vinted prijavljuje moju prodaju Poreznoj upravi?</summary><p>Čim na Vintedu u kalendarskoj godini dosegneš 30 prodaja ili prijeđeš 2000 €. Isto vrijedi za Njuškalo, eBay, Etsy i druge platforme obuhvaćene DAC7, svaku zasebno.</p></details><details><summary>Moram li platiti porez ako budem prijavljen?</summary><p>Ne automatski. Povremena prodaja vlastitih rabljenih stvari obično je privatna prodaja. Kupnja stvari radi preprodaje uz zaradu može se smatrati gospodarskom djelatnošću, i tada mogu nastati porezi i druge obveze. Detalji ovise o tvojoj zemlji.</p></details><details><summary>Zbrajaju li se prodaje na različitim platformama?</summary><p>Za prijavu ne. Svaka platforma gleda samo prodaje kod sebe. Za porez se ipak računa tvoj ukupni prihod, s bilo koje platforme.</p></details><details><summary>Mijenjaju li se granice uskoro?</summary><p>Europska komisija je 2026. predložila da se granica za prodaju robe podigne na 3000 € i da se ukine pravilo od 30 prodaja. To bi vrijedilo najranije od 2028. i još nije usvojeno. Prekidačem u provjeri možeš vidjeti što bi se za tebe promijenilo.</p></details></section>
+  <footer>
+    <p>Ova provjera služi samo za orijentaciju i nije porezni ni pravni savjet. U slučaju sumnje obrati se Poreznoj upravi ili poreznom savjetniku. Ažurirano: studeni 2026.</p>
+    <nav><a href="../impressum.html">Impresum</a><a href="../datenschutz.html">Privatnost</a></nav>
+  </footer>
+</div>
+<script>window.__T = {"locale": "hr-HR", "platforms": ["Vinted", "Njuškalo", "eBay", "Etsy", "Druga platforma"], "sales": "Prodaje", "amount": "Iznos u €", "on": "na", "st_empty": "Još nema podataka", "st_ok": "Bez prijave", "st_warn": "Blizu granice", "st_bad": "Bit ćeš prijavljen", "why": "Razlog", "r_sales": "Prodaje: {n} (granica 30)", "r_amount": "Iznos: {a} (granica: više od {l})", "room": "Prostor do prijave", "room_sales": "prodaje {n}", "room_amount": "iznos {a}", "bar_sales": "Prodaje: {n} / 30", "bar_amount": "Iznos: {a} / {l}", "sum_empty": "Upiši svoje brojeve da vidiš rezultat."};</script>
+<script>
+(function () {
+  var T = window.__T;
+  var eur = new Intl.NumberFormat(T.locale, { style: "currency", currency: "EUR", maximumFractionDigits: 0 });
+  var form = document.getElementById("form");
+  var proposal = document.getElementById("proposal");
+  var summary = document.getElementById("summary");
+  var sampleNote = document.getElementById("sample-note");
+  var sample = [[27, 640], [31, 1480], [6, 410], ["", ""], ["", ""]];
+  var ids = T.platforms.map(function (_, i) { return "p" + i; });
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function fmt(t, o) { return t.replace("{n}", o.n).replace("{a}", o.a).replace("{l}", o.l); }
+
+  form.innerHTML = T.platforms.map(function (name, i) {
+    var id = ids[i];
+    return '<div class="row">' +
+      '<div class="plat-name">' + esc(name) + '</div>' +
+      '<div class="field"><label for="s-' + id + '">' + esc(T.sales) + '<span class="sr-only"> ' + esc(T.on) + ' ' + esc(name) + '</span></label>' +
+      '<input id="s-' + id + '" type="number" inputmode="numeric" min="0" step="1" placeholder="0" value="' + sample[i][0] + '"></div>' +
+      '<div class="field"><label for="a-' + id + '">' + esc(T.amount) + '<span class="sr-only"> ' + esc(T.on) + ' ' + esc(name) + '</span></label>' +
+      '<input id="a-' + id + '" type="number" inputmode="decimal" min="0" step="0.01" placeholder="0" value="' + sample[i][1] + '"></div>' +
+      '<div class="result" id="r-' + id + '"></div></div>';
+  }).join("");
+
+  function num(id) { var v = parseFloat(document.getElementById(id).value); return isFinite(v) && v > 0 ? v : 0; }
+  function bar(label, value, limit, cls) {
+    var pct = Math.min(100, (value / limit) * 100);
+    return '<div class="bar"><span>' + esc(label) + '</span><div class="track"><div class="fill ' + cls + '" style="width:' + pct.toFixed(1) + '%"></div></div></div>';
+  }
+
+  function render() {
+    var newRule = proposal.checked, countLimit = newRule ? null : 30, amountLimit = newRule ? 3000 : 2000;
+    var c = { bad: 0, warn: 0, ok: 0 }, used = 0;
+    ids.forEach(function (id) {
+      var sales = num("s-" + id), amount = num("a-" + id), out = document.getElementById("r-" + id);
+      if (!sales && !amount) { out.innerHTML = '<div class="result-top"><span class="pill none">' + esc(T.st_empty) + '</span></div>'; return; }
+      used++;
+      var hit = (countLimit !== null && sales >= countLimit) || amount > amountLimit;
+      var near = !hit && ((countLimit !== null && sales >= countLimit * 0.8) || amount >= amountLimit * 0.8);
+      var cls = hit ? "bad" : near ? "warn" : "ok";
+      c[cls]++;
+      var text;
+      if (hit) {
+        var why = [];
+        if (countLimit !== null && sales >= countLimit) why.push(fmt(T.r_sales, { n: Math.round(sales) }));
+        if (amount > amountLimit) why.push(fmt(T.r_amount, { a: eur.format(amount), l: eur.format(amountLimit) }));
+        text = T.why + ": " + why.join(" · ");
+      } else {
+        var left = [];
+        if (countLimit !== null) left.push(fmt(T.room_sales, { n: Math.round(countLimit - sales) }));
+        left.push(fmt(T.room_amount, { a: eur.format(amountLimit - amount) }));
+        text = T.room + ": " + left.join(" · ");
+      }
+      var bars = '<div class="bars">' +
+        (countLimit !== null ? bar(fmt(T.bar_sales, { n: Math.round(sales) }), sales, countLimit, cls) : '') +
+        bar(fmt(T.bar_amount, { a: eur.format(amount), l: eur.format(amountLimit) }), amount, amountLimit, cls) + '</div>';
+      out.innerHTML = '<div class="result-top"><span class="pill ' + cls + '">' + esc(T["st_" + cls]) + '</span><span class="result-text">' + esc(text) + '</span></div>' + bars;
+    });
+    if (!used) { summary.textContent = T.sum_empty; return; }
+    summary.innerHTML = '<span class="counts">' +
+      '<span class="pill bad">' + esc(T.st_bad) + ': ' + c.bad + '</span>' +
+      '<span class="pill warn">' + esc(T.st_warn) + ': ' + c.warn + '</span>' +
+      '<span class="pill ok">' + esc(T.st_ok) + ': ' + c.ok + '</span></span>';
+  }
+
+  form.addEventListener("input", function () { sampleNote.hidden = true; render(); });
+  form.addEventListener("submit", function (e) { e.preventDefault(); });
+  proposal.addEventListener("change", render);
+  document.getElementById("clear").addEventListener("click", function () {
+    form.querySelectorAll("input").forEach(function (i) { i.value = ""; });
+    sampleNote.hidden = true; render(); document.getElementById("s-" + ids[0]).focus();
+  });
+  render();
+})();
+</script>
+</body>
+</html>
