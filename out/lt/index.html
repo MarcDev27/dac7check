@@ -45,6 +45,8 @@
   --warn-bg: #FFE8C2; --warn-fg: #7A4100;
   --bad-bg: #F8D7DA; --bad-fg: #8E1F1F;
   --track: #E6ECEE;
+  --input-border: #6E838A;
+  --focus: #1F4E5F;
   --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
   --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
 }
@@ -53,14 +55,14 @@
     --bg: #0F1A1E; --surface: #17262C; --fg: #E6EEF0; --muted: #A3B4BA; --line: #2B3F46;
     --accent: #7FC8A9; --accent-fg: #0F1A1E; --mint: #7FC8A9;
     --ok-bg: #173A28; --ok-fg: #9FE0BC; --warn-bg: #43300F; --warn-fg: #FFD08A; --bad-bg: #4A1E22; --bad-fg: #FFB3B8;
-    --track: #24363C; color-scheme: dark;
+    --track: #24363C; --input-border: #6F878F; --focus: #7FC8A9; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0F1A1E; --surface: #17262C; --fg: #E6EEF0; --muted: #A3B4BA; --line: #2B3F46;
   --accent: #7FC8A9; --accent-fg: #0F1A1E; --mint: #7FC8A9;
   --ok-bg: #173A28; --ok-fg: #9FE0BC; --warn-bg: #43300F; --warn-fg: #FFD08A; --bad-bg: #4A1E22; --bad-fg: #FFB3B8;
-  --track: #24363C; color-scheme: dark;
+  --track: #24363C; --input-border: #6F878F; --focus: #7FC8A9; color-scheme: dark;
 }
 *, *::before, *::after { box-sizing: border-box; }
 body {
@@ -75,7 +77,8 @@ h2 { font-size: clamp(22px, 4vw, 28px); }
 h3 { font-size: 18px; }
 p { margin: 0; }
 a { color: var(--accent); text-underline-offset: 3px; }
-:focus-visible { outline: 3px solid var(--mint); outline-offset: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.cta :focus-visible { outline-color: #FFFFFF; }
 
 .brand { display: flex; align-items: center; gap: 12px; font-weight: 600; font-size: 15px; color: var(--muted); }
 .brand-mark { width: 30px; height: 30px; border-radius: 8px; background: #1F4E5F; display: flex; flex-direction: column; justify-content: center; gap: 2.5px; padding: 0 7px; }
@@ -97,7 +100,7 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .row:last-child { border-bottom: 0; padding-bottom: 0; }
 .field { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .field label { font-size: 13px; font-weight: 600; color: var(--muted); }
-.field input { width: 100%; min-width: 0; font: inherit; font-variant-numeric: tabular-nums; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+.field input { width: 100%; min-width: 0; font: inherit; font-variant-numeric: tabular-nums; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--input-border); background: var(--bg); color: var(--fg); }
 .field input:focus { border-color: var(--accent); }
 .plat-name { font-weight: 700; font-size: 17px; padding-bottom: 10px; }
 .result { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 8px; }
@@ -112,12 +115,12 @@ a { color: var(--accent); text-underline-offset: 3px; }
 .bar { display: flex; flex-direction: column; gap: 4px; font-size: 12px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .track { height: 8px; border-radius: 4px; background: var(--track); overflow: hidden; }
 .fill { height: 100%; border-radius: 4px; width: 0; transition: width 0.3s ease; }
-.fill.ok { background: #2E8B57; } .fill.warn { background: #E08A1E; } .fill.bad { background: #C2402E; }
+.fill.ok { background: #2E8B57; } .fill.warn { background: #B5650C; } .fill.bad { background: #C2402E; }
 
 .controls { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; justify-content: space-between; }
 .toggle { display: flex; align-items: flex-start; gap: 10px; font-size: 14px; color: var(--muted); max-width: 46ch; }
 .toggle input { margin-top: 4px; width: 18px; height: 18px; accent-color: var(--accent); }
-.btn-ghost { font: inherit; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; border: 1px solid var(--line); background: transparent; color: var(--fg); cursor: pointer; }
+.btn-ghost { font: inherit; font-size: 14px; font-weight: 600; padding: 9px 16px; border-radius: 10px; border: 1px solid var(--input-border); background: transparent; color: var(--fg); cursor: pointer; min-height: 44px; }
 .btn-ghost:hover { border-color: var(--accent); }
 .summary { font-weight: 600; font-size: 16px; padding: 14px 16px; border-radius: 12px; background: var(--bg); }
 
@@ -140,7 +143,8 @@ summary { font-weight: 600; cursor: pointer; }
 details p { margin-top: 10px; color: var(--muted); max-width: 65ch; }
 
 footer { display: flex; flex-direction: column; gap: 10px; font-size: 13px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 20px; }
-footer nav { display: flex; flex-wrap: wrap; gap: 16px; }
+footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+footer nav a { display: inline-block; padding-block: 6px; }
 
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 560px) {
@@ -153,7 +157,7 @@ footer nav { display: flex; flex-wrap: wrap; gap: 16px; }
 
 .topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
 .lang { position: relative; background: none; border: 0; padding: 0; border-radius: 0; }
-.lang summary { list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+.lang summary { list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--input-border); background: var(--surface); color: var(--fg); }
 .lang summary::-webkit-details-marker { display: none; }
 .lang[open] summary { border-color: var(--accent); }
 .lang ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 5; margin: 0; padding: 6px; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; min-width: 190px; max-height: 60vh; overflow-y: auto; box-shadow: 0 12px 30px rgba(20, 38, 45, 0.15); }
@@ -162,16 +166,20 @@ footer nav { display: flex; flex-wrap: wrap; gap: 16px; }
 .lang li a[aria-current="page"] { font-weight: 700; }
 .counts { display: flex; flex-wrap: wrap; gap: 8px; }
 .summary:empty { display: none; }
+.skip { position: absolute; left: -9999px; top: 8px; z-index: 20; background: var(--surface); color: var(--fg); padding: 10px 16px; border-radius: 10px; border: 2px solid var(--focus); font-weight: 600; }
+.skip:focus { left: max(16px, env(safe-area-inset-left, 0px)); }
 
 body { margin: 0; }
 </style>
 </head>
 <body>
+<a class="skip" href="#check-title">Pereiti prie patikros</a>
 <div class="wrap">
   <header class="topbar">
     <span class="brand"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>Sortwell Studios</span>
     <details class="lang"><summary>Kalba: Lietuvių</summary><ul><li><a href="../en/index.html" lang="en" hreflang="en">English</a></li><li><a href="../bg/index.html" lang="bg" hreflang="bg">Български</a></li><li><a href="../cs/index.html" lang="cs" hreflang="cs">Čeština</a></li><li><a href="../da/index.html" lang="da" hreflang="da">Dansk</a></li><li><a href="../de/index.html" lang="de" hreflang="de">Deutsch</a></li><li><a href="../el/index.html" lang="el" hreflang="el">Ελληνικά</a></li><li><a href="../es/index.html" lang="es" hreflang="es">Español</a></li><li><a href="../et/index.html" lang="et" hreflang="et">Eesti</a></li><li><a href="../fi/index.html" lang="fi" hreflang="fi">Suomi</a></li><li><a href="../fr/index.html" lang="fr" hreflang="fr">Français</a></li><li><a href="../hr/index.html" lang="hr" hreflang="hr">Hrvatski</a></li><li><a href="../hu/index.html" lang="hu" hreflang="hu">Magyar</a></li><li><a href="../it/index.html" lang="it" hreflang="it">Italiano</a></li><li><a href="../lt/index.html" lang="lt" hreflang="lt" aria-current="page">Lietuvių</a></li><li><a href="../lv/index.html" lang="lv" hreflang="lv">Latviešu</a></li><li><a href="../nl/index.html" lang="nl" hreflang="nl">Nederlands</a></li><li><a href="../pl/index.html" lang="pl" hreflang="pl">Polski</a></li><li><a href="../pt/index.html" lang="pt" hreflang="pt">Português</a></li><li><a href="../ro/index.html" lang="ro" hreflang="ro">Română</a></li><li><a href="../sk/index.html" lang="sk" hreflang="sk">Slovenčina</a></li><li><a href="../sl/index.html" lang="sl" hreflang="sl">Slovenščina</a></li><li><a href="../sv/index.html" lang="sv" hreflang="sv">Svenska</a></li></ul></details>
   </header>
+  <main id="main" class="wrap" style="padding:0">
   <section class="intro" aria-labelledby="title">
     <div class="eyebrow">Nemokama DAC7 patikra</div>
     <h1 id="title">Ar Vinted ir kitos platformos praneš mokesčių inspekcijai apie tavo pardavimus?</h1>
@@ -179,7 +187,7 @@ body { margin: 0; }
     <div class="rule-chips"><span class="chip">Nuo 30 pardavimų</span><span class="chip">arba daugiau nei 2000 €</span><span class="chip">vienoje platformoje per kalendorinius metus</span></div>
   </section>
   <section class="checker" aria-labelledby="check-title">
-    <div class="checker-head"><h2 id="check-title">Tavo pardavimai šiais metais</h2><span class="sample-note" id="sample-note">Užpildyta pavyzdinėmis reikšmėmis</span></div>
+    <div class="checker-head"><h2 id="check-title" tabindex="-1">Tavo pardavimai šiais metais</h2><span class="sample-note" id="sample-note">Užpildyta pavyzdinėmis reikšmėmis</span></div>
     <form id="form" class="rows" novalidate></form>
     <div class="summary" id="summary" aria-live="polite"></div>
     <div class="controls">
@@ -200,6 +208,7 @@ body { margin: 0; }
     <div class="example"><div><strong>Pranešimo nebus</strong>25 pardavimai Vinted ir 25 eBay. Kiekviena platforma skaičiuoja atskirai, abi lieka žemiau 30.</div><div><strong>Pranešimas</strong>31 pardavimas tik Vinted, net jei iš viso jie atnešė tik 400 €.</div></div>
   </section>
   <section class="faq" aria-labelledby="faq-title"><h2 id="faq-title">Dažniausi klausimai</h2><details><summary>Kada Vinted praneša mokesčių inspekcijai apie mano pardavimus?</summary><p>Kai tik per kalendorinius metus Vinted pasieki 30 pardavimų arba viršiji 2000 €. Tas pats galioja eBay, Etsy ir kitoms DAC7 taikomoms platformoms, kiekvienai atskirai.</p></details><details><summary>Ar turiu mokėti mokesčius, jei apie mane pranešama?</summary><p>Ne automatiškai. Retkarčiais parduodami savo dėvėtus daiktus paprastai užsiimi privačiu pardavimu. Jei perki prekes, kad parduotum jas su pelnu, tai gali būti laikoma ūkine veikla, ir tada gali atsirasti mokesčių bei kitų prievolių. Detalės priklauso nuo tavo šalies.</p></details><details><summary>Ar pardavimai skirtingose platformose sumuojami?</summary><p>Pranešimui ne. Kiekviena platforma žiūri tik į savo pardavimus. Tačiau mokesčiams svarbios visos tavo pajamos, nesvarbu, iš kurios platformos.</p></details><details><summary>Ar ribos greitai pasikeis?</summary><p>2026 m. Europos Komisija pasiūlė prekių pardavimo ribą padidinti iki 3000 € ir atsisakyti 30 pardavimų taisyklės. Tai galiotų ne anksčiau kaip nuo 2028 m. ir dar nėra priimta. Patikros jungikliu gali pamatyti, ką tai tau pakeistų.</p></details></section>
+  </main>
   <footer>
     <p>Ši patikra skirta tik orientacijai ir nėra mokesčių ar teisinė konsultacija. Kilus abejonių, kreipkis į VMI arba mokesčių konsultantą. Atnaujinta: 2026 m. lapkritis.</p>
     <nav><a href="../impressum.html">Teisinė informacija</a><a href="../datenschutz.html">Privatumas</a></nav>
@@ -259,7 +268,7 @@ body { margin: 0; }
         left.push(fmt(T.room_amount, { a: eur.format(amountLimit - amount) }));
         text = T.room + ": " + left.join(" · ");
       }
-      var bars = '<div class="bars">' +
+      var bars = '<div class="bars" aria-hidden="true">' +
         (countLimit !== null ? bar(fmt(T.bar_sales, { n: Math.round(sales) }), sales, countLimit, cls) : '') +
         bar(fmt(T.bar_amount, { a: eur.format(amount), l: eur.format(amountLimit) }), amount, amountLimit, cls) + '</div>';
       out.innerHTML = '<div class="result-top"><span class="pill ' + cls + '">' + esc(T["st_" + cls]) + '</span><span class="result-text">' + esc(text) + '</span></div>' + bars;
@@ -277,6 +286,10 @@ body { margin: 0; }
   document.getElementById("clear").addEventListener("click", function () {
     form.querySelectorAll("input").forEach(function (i) { i.value = ""; });
     sampleNote.hidden = true; render(); document.getElementById("s-" + ids[0]).focus();
+  });
+  var menu = document.querySelector(".lang");
+  if (menu) menu.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
   });
   render();
 })();

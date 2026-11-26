@@ -14,7 +14,7 @@ CSS = open(sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "base.css"),
 EXTRA_CSS = """
 .topbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
 .lang { position: relative; background: none; border: 0; padding: 0; border-radius: 0; }
-.lang summary { list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); }
+.lang summary { list-style: none; cursor: pointer; font-size: 14px; font-weight: 600; padding: 8px 14px; border-radius: 10px; border: 1px solid var(--input-border); background: var(--surface); color: var(--fg); }
 .lang summary::-webkit-details-marker { display: none; }
 .lang[open] summary { border-color: var(--accent); }
 .lang ul { position: absolute; right: 0; top: calc(100% + 6px); z-index: 5; margin: 0; padding: 6px; list-style: none; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; min-width: 190px; max-height: 60vh; overflow-y: auto; box-shadow: 0 12px 30px rgba(20, 38, 45, 0.15); }
@@ -23,6 +23,8 @@ EXTRA_CSS = """
 .lang li a[aria-current="page"] { font-weight: 700; }
 .counts { display: flex; flex-wrap: wrap; gap: 8px; }
 .summary:empty { display: none; }
+.skip { position: absolute; left: -9999px; top: 8px; z-index: 20; background: var(--surface); color: var(--fg); padding: 10px 16px; border-radius: 10px; border: 2px solid var(--focus); font-weight: 600; }
+.skip:focus { left: max(16px, env(safe-area-inset-left, 0px)); }
 """
 
 JS = r"""
@@ -78,7 +80,7 @@ JS = r"""
         left.push(fmt(T.room_amount, { a: eur.format(amountLimit - amount) }));
         text = T.room + ": " + left.join(" · ");
       }
-      var bars = '<div class="bars">' +
+      var bars = '<div class="bars" aria-hidden="true">' +
         (countLimit !== null ? bar(fmt(T.bar_sales, { n: Math.round(sales) }), sales, countLimit, cls) : '') +
         bar(fmt(T.bar_amount, { a: eur.format(amount), l: eur.format(amountLimit) }), amount, amountLimit, cls) + '</div>';
       out.innerHTML = '<div class="result-top"><span class="pill ' + cls + '">' + esc(T["st_" + cls]) + '</span><span class="result-text">' + esc(text) + '</span></div>' + bars;
@@ -97,9 +99,15 @@ JS = r"""
     form.querySelectorAll("input").forEach(function (i) { i.value = ""; });
     sampleNote.hidden = true; render(); document.getElementById("s-" + ids[0]).focus();
   });
+  var menu = document.querySelector(".lang");
+  if (menu) menu.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && menu.open) { menu.open = false; menu.querySelector("summary").focus(); }
+  });
   render();
 })();
 """
+
+SKIP = {'en': 'Skip to the check', 'bg': 'Към проверката', 'cs': 'Přejít ke kontrole', 'da': 'Gå til tjekket', 'de': 'Zum Check springen', 'el': 'Μετάβαση στον έλεγχο', 'es': 'Ir al comprobador', 'et': 'Mine kontrolli juurde', 'fi': 'Siirry tarkistukseen', 'fr': 'Aller au simulateur', 'hr': 'Prijeđi na provjeru', 'hu': 'Ugrás az ellenőrzéshez', 'it': 'Vai alla verifica', 'lt': 'Pereiti prie patikros', 'lv': 'Pāriet uz pārbaudi', 'nl': 'Naar de check', 'pl': 'Przejdź do testu', 'pt': 'Ir para o verificador', 'ro': 'Mergi la verificare', 'sk': 'Prejsť na kontrolu', 'sl': 'Skoči na preverjanje', 'sv': 'Gå till kollen'}
 
 def url(code):
     return f"{BASE}/{code}/"
@@ -126,11 +134,13 @@ def body(code, prefix):
     faq = "".join(f"<details><summary>{q}</summary><p>{a}</p></details>" for q, a in t["faq"])
     js_t = {k: t[k] for k in ["locale", "platforms", "sales", "amount", "on", "st_empty", "st_ok", "st_warn", "st_bad", "why",
                               "r_sales", "r_amount", "room", "room_sales", "room_amount", "bar_sales", "bar_amount", "sum_empty"]}
-    return f"""<div class="wrap">
+    return f"""<a class="skip" href="#check-title">{SKIP[code]}</a>
+<div class="wrap">
   <header class="topbar">
     <span class="brand"><span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>Sortwell Studios</span>
     <details class="lang"><summary>{t["lang_label"]}: {t["name"]}</summary><ul>{links}</ul></details>
   </header>
+  <main id="main" class="wrap" style="padding:0">
   <section class="intro" aria-labelledby="title">
     <div class="eyebrow">{t["eyebrow"]}</div>
     <h1 id="title">{t["h1"]}</h1>
@@ -138,7 +148,7 @@ def body(code, prefix):
     <div class="rule-chips">{chips}</div>
   </section>
   <section class="checker" aria-labelledby="check-title">
-    <div class="checker-head"><h2 id="check-title">{t["check_title"]}</h2><span class="sample-note" id="sample-note">{t["sample"]}</span></div>
+    <div class="checker-head"><h2 id="check-title" tabindex="-1">{t["check_title"]}</h2><span class="sample-note" id="sample-note">{t["sample"]}</span></div>
     <form id="form" class="rows" novalidate></form>
     <div class="summary" id="summary" aria-live="polite"></div>
     <div class="controls">
@@ -159,6 +169,7 @@ def body(code, prefix):
     <div class="example"><div><strong>{t["ex_no_t"]}</strong>{t["ex_no"]}</div><div><strong>{t["ex_yes_t"]}</strong>{t["ex_yes"]}</div></div>
   </section>
   <section class="faq" aria-labelledby="faq-title"><h2 id="faq-title">{t["faq_title"]}</h2>{faq}</section>
+  </main>
   <footer>
     <p>{t["disclaimer"]}</p>
     <nav><a href="{prefix}impressum.html">{t["imprint"]}</a><a href="{prefix}datenschutz.html">{t["privacy"]}</a></nav>
