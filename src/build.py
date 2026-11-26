@@ -5,9 +5,22 @@ from i18n2 import L2
 from i18n3 import X, EURLEX, EXTRA_SOURCES, austria, germany_overrides
 from articles import ARTICLES, GUIDES, UPDATED
 from articles_more import MORE, MORE_GUIDES
+import articles_b1, articles_b2, articles_b3
+from countries import EU, BLOCK, OVERVIEW_ARTICLE, src as country_src
 GUIDES.update(MORE_GUIDES)
+for _m in (articles_b1, articles_b2, articles_b3):
+    GUIDES.update(_m.G)
 for _a in ARTICLES:
     _a.update(MORE.get(_a["id"], {}))
+    for _m in (articles_b1, articles_b2, articles_b3):
+        _a.update(_m.M.get(_a["id"], {}))
+    if _a["id"] == "letter":
+        # verified country rules go before the closing "next year" section
+        for _l, (_html, _countries) in BLOCK.items():
+            _b = _a[_l]["body"]
+            _i = _b.rfind("<h2>")
+            _a[_l]["body"] = _b[:_i] + _html + "\n" + _b[_i:]
+            _a[_l]["sources"] = [country_src(c) for c in _countries] + list(_a[_l]["sources"])
 import shutil
 L.update(L2)
 L["at"] = austria(L["de"])
@@ -174,6 +187,8 @@ def body(code, prefix):
     if gl in GUIDES:
         g = GUIDES[gl]
         gi = "".join(f'<li><a href="{prefix}{gl}/{g["dir"]}/{a[gl]["slug"]}/">{a[gl]["title"]}</a></li>' for a in ARTICLES)
+        if gl == "en":
+            gi += f'<li><a href="{prefix}en/{g["dir"]}/{OVERVIEW_ARTICLE["slug"]}/">{OVERVIEW_ARTICLE["title"]}</a></li>'
         guides = f'<section class="guides" aria-labelledby="guides-title"><h2 id="guides-title">{g["title"]}</h2><p>{g["intro"]}</p><ul>{gi}</ul></section>'
     js_t = {k: t[k] for k in ["locale", "platforms", "sales", "amount", "on", "st_empty", "st_ok", "st_warn", "st_bad", "why",
                               "r_sales", "r_amount", "room", "room_sales", "room_amount", "bar_sales", "bar_amount", "sum_empty"]}
@@ -398,6 +413,8 @@ def guides_index(lang):
     head_html = (f'<title>{title}</title>\n<meta name="description" content="{html.escape(g["intro"])}">\n<link rel="canonical" href="{me}">\n{alts}'
                  + social(html.unescape(title), g["intro"], me, L[lang]["locale"]))
     items = "".join(f'<li><a href="{a[lang]["slug"]}/"><strong>{a[lang]["title"]}</strong></a><br><span class="meta">{a[lang]["desc"]}</span></li>' for a in ARTICLES)
+    if lang == "en":
+        items += f'<li><a href="{OVERVIEW_ARTICLE["slug"]}/"><strong>{OVERVIEW_ARTICLE["title"]}</strong></a><br><span class="meta">{OVERVIEW_ARTICLE["desc"]}</span></li>'
     links = "".join(f'<li><a href="../../{l}/{GUIDES[l]["dir"]}/" lang="{l}" hreflang="{l}"' + (' aria-current="page"' if l == lang else '') + f'>{short_name(l)}</a></li>' for l in ART_LANGS)
     home = f"../../{lang}/"
     body_html = f"""<a class="skip" href="#article-title">{SKIP[lang]}</a>
@@ -415,6 +432,70 @@ def guides_index(lang):
 """
     return page(lang, head_html, body_html)
 
+OV_CSS = """
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; margin: 16px 0; }
+.table-wrap:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
+.ctable { border-collapse: collapse; width: 100%; font-size: 15px; }
+.ctable th, .ctable td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+.ctable thead th { background: var(--surface); }
+.ctable tbody th { white-space: nowrap; }
+@media (max-width: 640px) {
+  .ctable, .ctable tbody, .ctable tr, .ctable th, .ctable td { display: block; width: auto; }
+  .ctable thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  .ctable tr { padding: 10px 0; border-bottom: 1px solid var(--line); }
+  .ctable td, .ctable tbody th { border: 0; padding: 4px 12px; }
+  .ctable td::before { content: attr(data-label) ": "; font-weight: 600; }
+  .table-wrap { overflow: visible; }
+}
+"""
+
+def overview_page():
+    g, d = GUIDES["en"], OVERVIEW_ARTICLE
+    me = art_url("en", d["slug"])
+    home = "../../../en/"
+    ld = {"@context": "https://schema.org", "@graph": [
+        {"@type": "Article", "headline": d["title"], "description": d["desc"], "inLanguage": "en", "url": me,
+         "datePublished": UPDATED, "dateModified": UPDATED, "author": ORG, "publisher": ORG, "image": BASE + "/og-image.png",
+         "citation": [c[4] for c in EU]},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "DAC7 Check", "item": url("en")},
+            {"@type": "ListItem", "position": 2, "name": g["title"], "item": guides_url("en")},
+            {"@type": "ListItem", "position": 3, "name": d["title"], "item": me}]}]}
+    head_html = (f'<title>{d["title"]} | DAC7 Check</title>\n<meta name="description" content="{html.escape(d["desc"])}">\n'
+                 f'<link rel="canonical" href="{me}">\n' + social(d["title"], d["desc"], me, L["en"]["locale"], "article")
+                 + f'<script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>\n')
+    rows = "".join(f'<tr><th scope="row">{c}</th><td data-label="Your own used items">{own}</td><td data-label="Limits and exceptions">{lim}</td>'
+                   f'<td data-label="Source"><a href="{u}">{s}</a></td></tr>' for c, own, lim, s, u in EU)
+    body_html = f"""<a class="skip" href="#article-title">{SKIP["en"]}</a>
+<div class="wrap">
+  {topbar(home, "", "")}
+  <main id="main" class="article">
+    <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="{home}">DAC7 Check</a></li><li><a href="../">{g["title"]}</a></li><li aria-current="page">{d["title"]}</li></ol></nav>
+    <h1 id="article-title" tabindex="-1">{d["title"]}</h1>
+    <p class="meta">{g["updated"]} · SortwellStudios</p>
+    <p class="answer-box">{d["answer"]}</p>
+    <h2>DAC7 reporting is not a tax</h2>
+    <p>Under DAC7, platforms such as Vinted, eBay and Etsy report sellers who reach 30 sales or more than €2,000 on that platform in a calendar year. That report only tells the tax office what you sold. Whether you owe tax depends on your country's rules below, and on whether you sell your own things or buy goods to resell at a profit. Buying to resell regularly counts as a business in every EU country.</p>
+    <h2>Country by country</h2>
+    <p>The table covers individuals selling their own used personal items (clothes, furniture, books, toys). Checked against official or specialist sources on 26 November 2026.</p>
+    <div class="table-wrap" role="region" aria-labelledby="table-cap" tabindex="0">
+    <table class="ctable"><caption id="table-cap" class="meta" style="text-align:left;padding:10px 12px">Tax on private sales of used items in the 27 EU countries</caption>
+    <thead><tr><th scope="col">Country</th><th scope="col">Your own used items</th><th scope="col">Limits and exceptions</th><th scope="col">Source</th></tr></thead>
+    <tbody>{rows}</tbody></table></div>
+    <h2>What to do</h2>
+    <ul><li>Keep a simple list of what you buy and sell, with prices and fees.</li><li>If you buy to resell, register the activity as your country requires.</li><li>If a letter arrives after a DAC7 report, read <a href="../letter-from-tax-office-after-dac7-report/">Letter from the tax office after a DAC7 report</a>.</li></ul>
+    <section class="cta" aria-labelledby="cta-title">
+      <h2 id="cta-title">{g["cta_title"]}</h2>
+      <p>{g["cta_text"]}</p>
+      <a class="btn" href="{home}">{g["cta_btn"]}</a>
+      <p>{g["track"]} <a href="{LISTING}">{g["track_link"]}</a>.</p>
+    </section>
+  </main>
+  {footer("en", "../../../")}
+</div>
+"""
+    return page("en", head_html, body_html, OV_CSS)
+
 def write(path, content):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     open(path, "w", encoding="utf-8").write(content)
@@ -426,6 +507,7 @@ def build():
         write(os.path.join(OUT, lang, GUIDES[lang]["dir"], "index.html"), guides_index(lang))
         for a in ARTICLES:
             write(os.path.join(OUT, lang, GUIDES[lang]["dir"], a[lang]["slug"], "index.html"), article_page(a, lang))
+    write(os.path.join(OUT, "en", GUIDES["en"]["dir"], OVERVIEW_ARTICLE["slug"], "index.html"), overview_page())
     for f in os.listdir(os.path.join(HERE, "static")):
         shutil.copy(os.path.join(HERE, "static", f), os.path.join(OUT, f))
     alts = "\n".join(f'<link rel="alternate" hreflang="{hl(c)}" href="{url(c)}">' for c in ORDER) + f'\n<link rel="alternate" hreflang="x-default" href="{BASE}/">'
@@ -452,6 +534,7 @@ def build():
         au = {l: art_url(l, a[l]["slug"]) for l in ART_LANGS}
         for lang in ART_LANGS:
             entry(au[lang], pairs(au))
+    entry(art_url("en", OVERVIEW_ARTICLE["slug"]), [])
     sm.append("</urlset>")
     write(os.path.join(OUT, "sitemap.xml"), "\n".join(sm) + "\n")
     write(os.path.join(OUT, "impressum.html"), IMPRESSUM)
@@ -464,6 +547,7 @@ def build():
             "", "## Checker (22 languages)"] + [f"- [{L[c]['name']}]({url(c)})" for c in ORDER] + ["", "## Guides"]
     for lang in ART_LANGS:
         llms += [f"- [{a[lang]['title']}]({art_url(lang, a[lang]['slug'])}): {a[lang]['desc']}" for a in ARTICLES]
+    llms.insert(llms.index("## Guides") + 1, f"- [{OVERVIEW_ARTICLE['title']}]({art_url('en', OVERVIEW_ARTICLE['slug'])}): {OVERVIEW_ARTICLE['desc']}")
     write(os.path.join(OUT, "llms.txt"), "\n".join(llms) + "\n")
     frag = (head("de", fonts=True) + '<meta name="claude:viewport-fit-sides" content="cover">\n'
             f"<style>{CSS}{EXTRA_CSS}</style>\n" + body("de", ""))
